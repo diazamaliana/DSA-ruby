@@ -1,5 +1,6 @@
 def search(input_array, search_value)
   binary_search(input_array, search_value)
+  linear_search(input_array, search_value)
 end
 
 def linear_search(input_array, search_value)
@@ -36,3 +37,7 @@ def binary_search(input_array, search_value)
 
   return found
 end
+
+input_array = ["Cow", "Goat", "Rabbit", "Horse"]
+search_value = "Rabbit"
+puts search(input_array, search_value)
