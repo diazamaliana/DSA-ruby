@@ -38,6 +38,8 @@ def binary_search(input_array, search_value)
   return found
 end
 
+
+
 input_array = ["Cow", "Goat", "Rabbit", "Horse"]
 search_value = "Rabbit"
 puts search(input_array, search_value)
