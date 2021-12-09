@@ -82,19 +82,3 @@ puts h(2, "fruits")
 puts h(5, "fruits")
 puts h(pow(2, 1000), "fruits")
 puts h(pow(2, 9831), "fruits")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
